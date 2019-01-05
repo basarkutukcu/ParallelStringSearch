@@ -100,8 +100,6 @@ int main()
 	strcpy(key_h, "Bilbo");
 	key_size = strlen(key_h);
 
-	//StartCounter();
-
 	cudaMalloc((void **)&key_d, key_size);
 	cudaMemcpy(key_d, key_h, key_size, cudaMemcpyHostToDevice);
 	/**********************************************************************************************************/
