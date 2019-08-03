@@ -1,1 +1,5 @@
 This project is developed as the final project of the course Applied Parallel Programming on GPU(MMI713) which is taught at Middle East Technical University. The author of the project is Başar Kütükcü.
+
+This project utilize GPU with CUDA to parallelize string searching in large text files. The algorithm achieved up to 18 times speed up.
+
+The detailed explanation of the algorithm, all of the experiments and the results can be found in term paper and the poster in this repo.
